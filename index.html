@@ -1,1 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms & Conditions and DPDP Act Privacy Notice | UTI Pension Fund Limited</title>
+    <style>
+        /* ==========================================================================
+           UTI PENSION FUND LIMITED - OFFICIAL STYLESHEET
+           Design System: Navy Blue, Gold Accent, Clean Corporate Slate
+           ========================================================================== */
+        
+        :root {
+            --uti-navy: #0B2545;
+            --uti-navy-light: #13315C;
+            --uti-gold: #C59B27;
+            --uti-gold-light: #F4E8C1;
+            --uti-text-dark: #1E293B;
+            --uti-text-muted: #475569;
+            --uti-bg-light: #F8FAFC;
+            --uti-card-bg: #FFFFFF;
+            --uti-border: #E2E8F0;
+            --uti-accent-blue: #1D4ED8;
+            --uti-success: #15803D;
+            --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
 
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-family);
+            background-color: var(--uti-bg-light);
+            color: var(--uti-text-dark);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Top Institutional Bar */
+        .top-bar {
+            background-color: var(--uti-navy);
+            color: #FFFFFF;
+            padding: 8px 24px;
+            font-size: 0.825rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 3px solid var(--uti-gold);
+        }
+
+        .top-bar-info {
+            display: flex;
+            gap: 20px;
+        }
+
+        .top-bar-info span {
+            opacity: 0.9;
+        }
+
+        /* Header & Navigation Styling */
+        header {
+            background-color: #FFFFFF;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 16px 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .brand-logo-uti {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+
+        .brand-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .brand-title {
+            font-size: 1.35rem;
+            font-weight: 800;
+            color: var(--uti-navy);
+            letter-spacing: -0.5px;
+            line-height: 1.1;
+        }
+
+        .brand-subtitle {
+            font-size: 0.725rem;
+            color: var(--uti-text-muted);
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        .divider-vertical {
+            width: 1px;
+            height: 40px;
+            background-color: var(--uti-border);
+        }
+
+        .pfrda-badge {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background-color: #F1F5F9;
+            padding: 6px 12px;
+            border-radius: 6px;
+            border: 1px solid #E2E8F0;
+        }
+
+        .pfrda-text {
+            font-size: 0.7rem;
+            color: var(--uti-navy);
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        /* Main Layout */
+        .main-wrapper {
+            max-width: 1200px;
+            margin: 32px auto;
+            padding: 0 24px;
+            display: grid;
+            grid-template-columns: 280px 1fr;
+            gap: 32px;
+        }
+
+        /* Sidebar Navigation */
+        .sidebar {
+            position: sticky;
+            top: 100px;
+            height: fit-content;
+        }
+
+        .sidebar-card {
+            background-color: #FFFFFF;
+            border-radius: 8px;
+            border: 1px solid var(--uti-border);
+            padding: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .sidebar-title {
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: var(--uti-text-muted);
+            margin-bottom: 12px;
+            letter-spacing: 0.5px;
+        }
+
+        .nav-list {
+            list-style: none;
+        }
+
+        .nav-item {
+            margin-bottom: 8px;
+        }
+
+        .nav-link {
+            display: block;
+            padding: 8px 12px;
+            color: var(--uti-text-dark);
+            text-decoration: none;
+            font-size: 0.875rem;
+            font-weight: 500;
+            border-radius: 6px;
+            transition: all 0.2s ease;
+        }
+
+        .nav-link:hover, .nav-link.active {
+            background-color: var(--uti-gold-light);
+            color: var(--uti-navy);
+            font-weight: 700;
+        }
+
+        .doc-meta-card {
+            margin-top: 20px;
+            background-color: var(--uti-navy);
+            color: #FFFFFF;
+            padding: 16px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+        }
+
+        .doc-meta-card p {
+            margin-bottom: 6px;
+            opacity: 0.9;
+        }
+
+        .doc-meta-card strong {
+            color: var(--uti-gold);
+        }
+
+        /* Content Area */
+        .content-card {
+            background-color: var(--uti-card-bg);
+            border-radius: 8px;
+            border: 1px solid var(--uti-border);
+            padding: 40px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .document-header {
+            border-bottom: 2px solid var(--uti-border);
+            padding-bottom: 24px;
+            margin-bottom: 32px;
+        }
+
+        .document-badge {
+            display: inline-block;
+            background-color: #EFF6FF;
+            color: var(--uti-accent-blue);
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 50px;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .document-title {
+            font-size: 2rem;
+            color: var(--uti-navy);
+            font-weight: 800;
+            line-height: 1.25;
+            margin-bottom: 8px;
+        }
+
+        .document-subtitle {
+            font-size: 0.95rem;
+            color: var(--uti-text-muted);
+        }
+
+        /* Formatted Content Elements */
+        section {
+            margin-bottom: 36px;
+            scroll-margin-top: 120px;
+        }
+
+        section:last-child {
+            margin-bottom: 0;
+        }
+
+        h2 {
+            font-size: 1.35rem;
+            color: var(--uti-navy);
+            font-weight: 700;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-bottom: 1px solid #F1F5F9;
+            padding-bottom: 8px;
+        }
+
+        h2::before {
+            content: "";
+            display: inline-block;
+            width: 4px;
+            height: 18px;
+            background-color: var(--uti-gold);
+            border-radius: 2px;
+        }
+
+        h3 {
+            font-size: 1.05rem;
+            color: var(--uti-navy-light);
+            font-weight: 600;
+            margin: 18px 0 10px 0;
+        }
+
+        p {
+            margin-bottom: 14px;
+            color: var(--uti-text-dark);
+            font-size: 0.935rem;
+            text-align: justify;
+        }
+
+        .highlight-box {
+            background-color: #F8FAFC;
+            border-left: 4px solid var(--uti-navy);
+            padding: 16px 20px;
+            border-radius: 0 6px 6px 0;
+            margin: 20px 0;
+        }
+
+        .highlight-box p {
+            margin-bottom: 0;
+            font-size: 0.9rem;
+            color: var(--uti-navy);
+            font-weight: 500;
+        }
+
+        .dpdp-notice-box {
+            background-color: #FEFCE8;
+            border: 1px solid #FEF08A;
+            border-left: 4px solid var(--uti-gold);
+            padding: 20px;
+            border-radius: 6px;
+            margin: 24px 0;
+        }
+
+        .dpdp-notice-header {
+            font-weight: 700;
+            color: #854D0E;
+            font-size: 0.95rem;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* Custom Tables inside HTML */
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 0.875rem;
+        }
+
+        .data-table th, .data-table td {
+            padding: 12px 16px;
+            text-align: left;
+            border: 1px solid var(--uti-border);
+        }
+
+        .data-table th {
+            background-color: var(--uti-navy);
+            color: #FFFFFF;
+            font-weight: 600;
+        }
+
+        .data-table tr:nth-child(even) {
+            background-color: #F8FAFC;
+        }
+
+        .badge-tag {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            background-color: #E2E8F0;
+            color: var(--uti-text-dark);
+        }
+
+        /* Responsive Breakpoints */
+        @media (max-width: 900px) {
+            .main-wrapper {
+                grid-template-columns: 1fr;
+            }
+
+            .sidebar {
+                display: none;
+            }
+
+            .header-container {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 16px;
+            }
+
+            .top-bar {
+                flex-direction: column;
+                gap: 4px;
+                align-items: flex-start;
+            }
+        }
+
+        /* Print Optimization */
+        @media print {
+            .top-bar, header, .sidebar, footer {
+                display: none;
+            }
+            .main-wrapper {
+                grid-template-columns: 1fr;
+                margin: 0;
+                padding: 0;
+            }
+            .content-card {
+                border: none;
+                box-shadow: none;
+                padding: 0;
+            }
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--uti-navy);
+            color: #FFFFFF;
+            padding: 40px 24px 24px 24px;
+            margin-top: 60px;
+            border-top: 4px solid var(--uti-gold);
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 40px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .footer-brand p {
+            color: #94A3B8;
+            font-size: 0.85rem;
+            margin-top: 12px;
+            text-align: left;
+        }
+
+        .footer-heading {
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: var(--uti-gold);
+            text-transform: uppercase;
+            margin-bottom: 16px;
+            letter-spacing: 0.5px;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 8px;
+        }
+
+        .footer-links a {
+            color: #CBD5E1;
+            text-decoration: none;
+            font-size: 0.85rem;
+            transition: color 0.2s;
+        }
+
+        .footer-links a:hover {
+            color: #FFFFFF;
+        }
+
+        .footer-bottom {
+            max-width: 1200px;
+            margin: 20px auto 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.775rem;
+            color: #94A3B8;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top Institutional Bar -->
+    <div class="top-bar">
+        <div class="top-bar-info">
+            <span><strong>CIN:</strong> U66020MH2007GOI176785</span>
+            <span><strong>PFRDA Registration:</strong> POP336042022</span>
+            <span><strong>Entity:</strong> Wholly Owned Subsidiary of UTI AMC Ltd.</span>
+        </div>
+        <div>
+            <span>Official Legal Disclosure Portal</span>
+        </div>
+    </div>
+
+    <!-- Main Corporate Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo-container">
+                <a href="#" class="brand-logo-uti">
+                    <!-- Vector SVG representation of UTI Brand Mark -->
+                    <svg width="42" height="42" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="100" height="100" rx="12" fill="#0B2545"/>
+                        <path d="M25 30H40V70H25V30Z" fill="#C59B27"/>
+                        <path d="M45 30H60V70H45V30Z" fill="#FFFFFF"/>
+                        <path d="M65 30H75V70H65V30Z" fill="#C59B27"/>
+                        <circle cx="50" cy="20" r="6" fill="#C59B27"/>
+                    </svg>
+                    <div class="brand-text">
+                        <span class="brand-title">UTI PENSION FUND</span>
+                        <span class="brand-subtitle">UTI Pension Fund Limited</span>
+                    </div>
+                </a>
+                <div class="divider-vertical"></div>
+                <div class="pfrda-badge">
+                    <!-- Vector SVG representation of PFRDA Seal -->
+                    <svg width="28" height="28" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="45" stroke="#0B2545" stroke-width="8" fill="#F8FAFC"/>
+                        <path d="M50 20 L75 40 L65 75 L35 75 L25 40 Z" fill="#C59B27"/>
+                    </svg>
+                    <div class="pfrda-text">
+                        Regulated by<br>PFRDA
+                    </div>
+                </div>
+            </div>
+            <div>
+                <span class="badge-tag" style="background-color: #E0E7FF; color: #3730A3;">WhatsApp Bot Legal Module v2.4</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Layout -->
+    <div class="main-wrapper">
+
+        <!-- Navigation Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-card">
+                <div class="sidebar-title">Document Outline</div>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#sec-overview" class="nav-link active">1. Overview & Scope</a></li>
+                    <li class="nav-item"><a href="#sec-dpdp-notice" class="nav-link">2. DPDP Act Section 5 Notice</a></li>
+                    <li class="nav-item"><a href="#sec-data-collected" class="nav-link">3. Categories of Data</a></li>
+                    <li class="nav-item"><a href="#sec-purpose" class="nav-link">4. Lawful Processing Purpose</a></li>
+                    <li class="nav-item"><a href="#sec-meta-flows" class="nav-link">5. Meta Flows Mechanics</a></li>
+                    <li class="nav-item"><a href="#sec-rights" class="nav-link">6. Data Principal Rights</a></li>
+                    <li class="nav-item"><a href="#sec-grievance" class="nav-link">7. Grievance Redressal</a></li>
+                    <li class="nav-item"><a href="#sec-disclaimer" class="nav-link">8. Legal Disclaimers</a></li>
+                </ul>
+
+                <div class="doc-meta-card">
+                    <p><strong>Status:</strong> Active & Binding</p>
+                    <p><strong>Compliance:</strong> DPDP Act 2023</p>
+                    <p><strong>View Type:</strong> Read-Only Legal Record</p>
+                    <p><strong>Last Updated:</strong> October 2026</p>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Document Main Container -->
+        <main class="content-card">
+
+            <div class="document-header">
+                <span class="document-badge">Statutory Compliance Disclosure</span>
+                <h1 class="document-title">Terms & Conditions and DPDP Act Privacy Notice</h1>
+                <p class="document-subtitle">Governing the Use of UTI Pension Fund Limited WhatsApp Conversational Banking and Interactive Meta Flows Infrastructure</p>
+            </div>
+
+            <!-- Section 1 -->
+            <section id="sec-overview">
+                <h2>1. Overview and Scope of Agreement</h2>
+                <p>This legal document constitutes an electronic disclosure executed in accordance with the Information Technology Act, 2000, the Digital Personal Data Protection (DPDP) Act, 2023, and guidelines promulgated by the Pension Fund Regulatory and Development Authority (PFRDA). This document governs the access to and use of the automated WhatsApp Business Chatbot and interactive Meta Flows services operated by <strong>UTI Pension Fund Limited</strong> (hereinafter referred to as "UTIPFL", "Company", "We", or "Us").</p>
+                
+                <p>UTIPFL is a public limited company incorporated under the Companies Act, 1956/2013, bearing Corporate Identity Number (CIN) <strong>U66020MH2007GOI176785</strong>, and operating as a wholly owned subsidiary of UTI Asset Management Company Limited. UTIPFL is duly registered with PFRDA as a Point of Presence (POP) bearing Registration Number <strong>POP336042022</strong> (granted on April 20, 2022) and manages National Pension System (NPS) assets across Government and Private sectors.</p>
+
+                <div class="highlight-box">
+                    <p><strong>Notice to Subscriber:</strong> This page is a static, view-only legal reference provided to educate subscribers regarding their rights and our processing standards. No physical signature or interactive input is required on this web page. Consent is rendered through affirmative actions within the WhatsApp messaging interface.</p>
+                </div>
+            </section>
+
+            <!-- Section 2 -->
+            <section id="sec-dpdp-notice">
+                <h2>2. Statutory Notice under Section 5 of DPDP Act, 2023</h2>
+                <p>In compliance with Section 5 of the Digital Personal Data Protection Act, 2023, UTIPFL issues this explicit Privacy Notice to every individual ("Data Principal") before or at the time of requesting consent for processing digital personal data through our WhatsApp Chatbot and Meta Flows applications.</p>
+
+                <div class="dpdp-notice-box">
+                    <div class="dpdp-notice-header">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+                        </svg>
+                        Mandatory Statutory Summary
+                    </div>
+                    <p style="color: #713F12; font-size: 0.875rem;">UTIPFL collects digital personal data strictly for processing National Pension System (NPS) transactions, account maintenance, identity verification, subscriber servicing, and regulatory reporting under PFRDA guidelines. You retain full statutory rights to withdraw consent, access data records, request corrections, and register grievances with our designated Grievance Officers or the Data Protection Board of India.</p>
+                </div>
+
+                <p>UTIPFL serves as the "Data Fiduciary" responsible for determining the means and purposes of personal data processing. All data captured via interactive Meta Flows is processed lawfully, fairly, and transparently in accordance with the statutory framework.</p>
+            </section>
+
+            <!-- Section 3 -->
+            <section id="sec-data-collected">
+                <h2>3. Categories of Digital Personal Data Collected</h2>
+                <p>Depending on the specific Meta Flow executed by the subscriber within WhatsApp, UTIPFL collects and processes the following categorized data elements:</p>
+
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>Data Elements Collected</th>
+                            <th>Operational Context</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Identity Data</strong></td>
+                            <td>Full Name, Permanent Retirement Account Number (PRAN), Date of Birth, PAN, Aadhaar (masked).</td>
+                            <td>NPS Account Validation, Onboarding Meta Flows.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Contact Data</strong></td>
+                            <td>WhatsApp Mobile Number, Email Address, Communication Address.</td>
+                            <td>Session dispatch, Transactional confirmations, Statements.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Financial Data</strong></td>
+                            <td>Tier I/II Contribution Amounts, Scheme Allocation Preferences, Transaction Reference Numbers.</td>
+                            <td>Contribution processing via CRA payment gateways.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Technical Telemetry</strong></td>
+                            <td>WhatsApp User ID, IP Address, Device OS type, Session timestamps, Interactive Flow click logs.</td>
+                            <td>System audit trails, Fraud detection, Technical diagnostics.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Section 4 -->
+            <section id="sec-purpose">
+                <h2>4. Lawful Purpose of Data Processing</h2>
+                <p>UTIPFL processes personal data collected through Meta Flows exclusively for specified, explicit, and legitimate financial service purposes, including:</p>
+                <p><strong>4.1 NPS Account Servicing:</strong> Facilitating subscriber registration, Tier-I and Tier-II voluntary contributions, scheme choice modifications, address updates, and PRAN statement generation.</p>
+                <p><strong>4.2 Regulatory Compliance:</strong> Fulfilling statutory obligations prescribed under the PFRDA Act, 2013, Prevention of Money Laundering Act (PMLA), 2002, and directives issued by Central Recordkeeping Agencies (CRAs) such as Protean, KFintech, and CAMS.</p>
+                <p><strong>4.3 Communication & Authentication:</strong> Delivering transactional receipts, OTP verifications, service alerts, and annual statement summaries directly to the subscriber's authenticated WhatsApp account.</p>
+            </section>
+
+            <!-- Section 5 -->
+            <section id="sec-meta-flows">
+                <h2>5. Operational Mechanics of WhatsApp Meta Flows</h2>
+                <p>Meta Flows represent native structured form screens embedded within the WhatsApp interface. By completing and submitting a Meta Flow screen, the subscriber acknowledges that:</p>
+                <p>a) Data inputted into Meta Flow forms is transmitted securely via encrypted API hooks to UTIPFL backend application servers.</p>
+                <p>b) Data transmission utilizes end-to-end transport layer security (TLS 1.3) to prevent unauthorized interception.</p>
+                <p>c) Meta (WhatsApp) acts as a data processor/intermediary providing transport infrastructure, and UTIPFL does not authorize Meta to utilize subscriber financial data for independent advertising or commercial profiling.</p>
+            </section>
+
+            <!-- Section 6 -->
+            <section id="sec-rights">
+                <h2>6. Rights of Data Principals under DPDP Act</h2>
+                <p>Every subscriber interacting with UTIPFL retains enforceable legal rights under Chapter III of the DPDP Act, 2023:</p>
+                
+                <h3>6.1 Right to Withdraw Consent</h3>
+                <p>Subscribers may withdraw processing consent at any time by sending "STOP" or "REVOKE" within the WhatsApp chat interface or emailing <code>contact@utipf.co.in</code>. Withdrawal of consent does not affect the legality of prior processing performed prior to revocation, nor does it impact data retention mandated by statutory financial laws (e.g., PMLA 10-year record retention rule).</p>
+
+                <h3>6.2 Right to Access and Correction</h3>
+                <p>Subscribers possess the right to obtain a summary of personal data processed by UTIPFL and request correction, updating, or erasure of inaccurate or incomplete personal records.</p>
+
+                <h3>6.3 Right to Nominate</h3>
+                <p>In the event of death or incapacity of the Data Principal, the subscriber retains the right to nominate an individual who shall exercise data rights in accordance with DPDP rules.</p>
+            </section>
+
+            <!-- Section 7 -->
+            <section id="sec-grievance">
+                <h2>7. Statutory Grievance Redressal Framework</h2>
+                <p>UTIPFL maintains a structured, multi-tier escalation hierarchy to resolve data privacy and operational grievances promptly.</p>
+
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Escalation Level</th>
+                            <th>Designated Officer & Contact Details</th>
+                            <th>Remit / Jurisdiction</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Level 1: Grievance Officer</strong></td>
+                            <td>
+                                <strong>Ms. Akshata Wali</strong><br>
+                                Assistant Manager (Operations - POP)<br>
+                                Corporate Office: First Floor, Unit No. 2, Block 'B', JVPD Scheme, Gulmohar Cross Rd No. 9, Andheri (W), Mumbai - 400049<br>
+                                Tel: 022-68990842 \| Email: <code>akshata.wali@utipf.co.in</code>
+                            </td>
+                            <td>Initial data privacy queries, consent revocation processing, flow errors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Level 2: Chief Grievance Officer</strong></td>
+                            <td>
+                                <strong>Mr. Shailesh Bendale</strong><br>
+                                Head - POP Operations<br>
+                                Corporate Office, Mumbai - 400049<br>
+                                Tel: 022-68990841 \| Email: <code>shailesh.bendale@utipf.co.in</code>
+                            </td>
+                            <td>Unresolved Level 1 disputes, complex data correction requests.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Nodal Officer (Pension Agents)</strong></td>
+                            <td>
+                                <strong>Mr. Vishal Shivram Masurkar</strong><br>
+                                AVP - Product & Strategy<br>
+                                Tel: 022-68990800 \| Mobile: +91 88989 48429 \| Email: <code>vishal.masurkar@utipf.co.in</code>
+                            </td>
+                            <td>Intermediary and agent-related operational oversight.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Regulatory Appeal</strong></td>
+                            <td>
+                                <strong>PFRDA Ombudsman / Data Protection Board of India</strong><br>
+                                Address: B-14/A, Chatrapati Shivaji Bhawan, Qutab Institutional Area, Katwaria Sarai, New Delhi - 110016<br>
+                                Email: <code>ombudsman@pfrda.org.in</code>
+                            </td>
+                            <td>External regulatory appeal following internal exhaustion.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Section 8 -->
+            <section id="sec-disclaimer">
+                <h2>8. Institutional Disclaimers and Governing Law</h2>
+                <p><strong>8.1 Investment Risk Disclosure:</strong> National Pension System (NPS) contributions managed by UTI Pension Fund Limited are market-linked financial instruments subject to market risks. Past performance offers no guarantee of future returns. Asset allocation choices (Equity, Corporate Debt, Government Securities) selected via WhatsApp Meta Flows are executed at the subscriber's sole discretion.</p>
+                <p><strong>8.2 Governing Jurisdiction:</strong> These terms are governed by the laws of the Republic of India. Any legal proceedings arising out of the use of this service shall be subject to the exclusive jurisdiction of competent courts located in Mumbai, Maharashtra.</p>
+                <p><strong>8.3 Language Accessibility:</strong> In alignment with Section 5(3) of the DPDP Act, this notice is available in English and may be rendered in official Eighth Schedule regional languages upon request to the Data Fiduciary.</p>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- Official Corporate Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <svg width="30" height="30" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="100" height="100" rx="12" fill="#FFFFFF"/>
+                        <path d="M25 30H40V70H25V30Z" fill="#C59B27"/>
+                        <path d="M45 30H60V70H45V30Z" fill="#0B2545"/>
+                        <path d="M65 30H75V70H65V30Z" fill="#C59B27"/>
+                    </svg>
+                    <span style="font-size: 1.1rem; font-weight: 800; color: #FFFFFF;">UTI PENSION FUND LIMITED</span>
+                </div>
+                <p>UTI Pension Fund Limited (CIN: U66020MH2007GOI176785) is a 100% subsidiary of UTI Asset Management Company Limited. Registered with PFRDA as a Pension Fund Manager and Point of Presence (POP336042022).</p>
+                <p style="margin-top: 8px;"><strong>Registered Office:</strong> UTI Tower, 'Gn' Block, Bandra Kurla Complex, Bandra (East), Mumbai - 400051.</p>
+                <p style="margin-top: 4px;"><strong>Corporate Office:</strong> First Floor, Unit No. 2, Block 'B', JVPD Scheme, Gulmohar Cross Road No. 9, Andheri (West), Mumbai - 400049.</p>
+            </div>
+            <div>
+                <div class="footer-heading">Regulatory Links</div>
+                <ul class="footer-links">
+                    <li><a href="https://www.pfrda.org.in" target="_blank" rel="noopener">PFRDA Portal</a></li>
+                    <li><a href="https://www.npstrust.org.in" target="_blank" rel="noopener">NPS Trust</a></li>
+                    <li><a href="https://www.utipension.com" target="_blank" rel="noopener">UTIPFL Corporate Site</a></li>
+                    <li><a href="https://www.meity.gov.in" target="_blank" rel="noopener">MeitY DPDP Portal</a></li>
+                </ul>
+            </div>
+            <div>
+                <div class="footer-heading">NPS Schemes</div>
+                <ul class="footer-links">
+                    <li><a href="#">Scheme E - Tier I & II</a></li>
+                    <li><a href="#">Scheme C - Tier I & II</a></li>
+                    <li><a href="#">Scheme G - Tier I & II</a></li>
+                    <li><a href="#">Atal Pension Yojana</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div>© Copyright 2026 UTI Pension Fund Limited. All Rights Reserved.</div>
+            <div>DPDP Act 2023 Compliant Institutional Web Notice</div>
+        </div>
+    </footer>
+
+</body>
+</html>
